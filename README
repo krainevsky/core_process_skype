@@ -1,0 +1,23 @@
+core_process_skype
+
+Sorry for the name of the unit I need this name cause it's a part of my TestFramework :)
+This unit allows TestComplete to send messages through Skype.
+
+So using is simple.
+[JScript]
+var skype = new Skype();
+skype.sendMessage('user.handle', 'test');
+
+Just replace 'user.handle' with someone's real nickname in your Skype user list.
+
+Warning!
+You shoud allow TestComplete to interact with Skype at the first run of the script.
+
+More info will be posted with coming article.
+
+At this moment we can use this methods:
+run
+close
+sendMessage
+sendMessageToBookmarkedChat
+sendMessageToFriend
