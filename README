@@ -4,11 +4,16 @@ Sorry for the name of the unit I need this name cause it's a part of my TestFram
 This unit allows TestComplete to send messages through Skype.
 
 So using is simple.
+1. Download the Skype4COM.dll from http://developer.skype.com/accessories/skype4com 
+2. Register this library like this: resvr32 skype4com.dll
+3. Attach the core_process_skype.js to your TestComplete project
+4. Try this script:
 [JScript]
 var skype = new Skype();
 skype.sendMessage('user.handle', 'test');
-
-Just replace 'user.handle' with someone's real nickname in your Skype user list.
+//Just replace 'user.handle' with someone's real nickname in your Skype user list.
+5. ...
+6. Profit
 
 Warning!
 You shoud allow TestComplete to interact with Skype at the first run of the script.
