@@ -18,7 +18,7 @@ skype.sendMessage('user.handle', 'test');
 Warning!
 You shoud allow TestComplete to interact with Skype at the first run of the script.
 
-More info will be posted with coming article.
+More info here http://qatula.ru/events/article/4-article1
 
 At this moment we can use this methods:
 run
